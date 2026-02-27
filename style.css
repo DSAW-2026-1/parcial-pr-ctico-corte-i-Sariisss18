@@ -1,0 +1,56 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centrado en viewport */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+    width: 25rem;
+    height: 18.75rem;
+    background-color: #0b3d91;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Filas */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.group {
+    display: flex;
+    gap: 1rem; /* separación pequeña entre las dos figuras */
+}
+
+/* Figuras base */
+.circle,
+.square {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* Cuadrados */
+.square {
+    background-color: rgb(0,255,255);
+}
+
+/* Círculos */
+.circle {
+    background-color: #ff9ecb;
+    border-radius: 50%;
+}
